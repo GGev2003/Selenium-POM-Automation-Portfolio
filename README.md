@@ -16,12 +16,27 @@
 
 ## 📂 Project Structure
 
-| Directory   | Key Files                | Purpose                          |
-|-------------|--------------------------|----------------------------------|
-| `base/`     | commands.py, selectors.py| Core automation infrastructure   |
-| `pages/`    | book_page.py, etc.       | Page object classes              |
-| `reports/`  | report.html              | Test execution reports           |
-| `tests/`    | test_products.py         | Parametrized test cases          |
+📦 tricentis-automation
+|
+|
+├── 📂 base
+│   ├── 📜 commands.py       
+│   ├── 📜 selectors.py       
+│   └── 📜 url.py            
+│
+├── 📂 pages
+│   ├── 📜 book_page.py       
+│   ├── 📜 computers_page.py  
+│   └── 📜 electronics_page.py
+│
+├── 📂 reports
+│   ├── 📂 assets           
+│   └── 📜 report.html     
+│
+├── 📂 tests
+│   └── 📜 test_products.py  
+│
+└──  📜 README.md           
 
 ### Key Features:
 1. **Complete Documentation** - All aspects in one file
