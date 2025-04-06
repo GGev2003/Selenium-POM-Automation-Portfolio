@@ -17,6 +17,7 @@
 ## 📂 Project Structure
 
 📦 tricentis-automation
+|
 ├── 📂 base
 │   ├── 📜 commands.py       
 │   ├── 📜 selectors.py       
