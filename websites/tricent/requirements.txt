@@ -1,0 +1,8 @@
+selenium
+pytest
+pytest-csv
+pytest-json-report
+pytest-html
+pytest-xdist
+requests
+beautifulsoup4
