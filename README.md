@@ -5,16 +5,6 @@
 ![Pytest](https://img.shields.io/badge/pytest-test%20framework-green?logo=pytest)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
-## 📌 Table of Contents
-
-- [Framework Overview](#-framework-overview)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-- [Test Examples](#-test-examples)
-- [Best Practices](#-best-practices)
-- [Troubleshooting](#-troubleshooting)
-- [Future Roadmap](#-future-roadmap)
-
 
 ## 🏗️ Framework Overview
 
