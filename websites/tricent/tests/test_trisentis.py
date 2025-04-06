@@ -13,6 +13,7 @@ class Test_tricent_book:
             sleep(1)
             assert driver.is_element_visible_CSS("#product-details-form > div > div.product-essential > div.overview > div.prices > div.product-price > span"),"the element not visible"
         except (TimeoutException,NoSuchElementException) as e:
+            driver.save_screenshot("reports/fail.png")
             print("didn't found any element")
 
 
@@ -26,6 +27,7 @@ class Test_tricent_computers:
             sleep(1)
             assert driver.is_element_visible_CSS("#product-details-form > div > div.product-essential > div.overview > div.prices > div.product-price > span"),"the element not visible"
         except (TimeoutException,NoSuchElementException) as e:
+            driver.save_screenshot("reports/fail.png")
             print("didn't found any element")
 
 
@@ -39,5 +41,6 @@ class Test_tricent_electronics:
             sleep(1)
             assert driver.is_element_visible_CSS("#product-details-form > div > div.product-essential > div.overview > div.prices > div.product-price > span"),"the element not visible"
         except (TimeoutException,NoSuchElementException) as e :
+            driver.save_screenshot("reports/fail.png")
             print("didn't found any element")
  
